@@ -53,8 +53,8 @@ async function fetchPlanets(movie) {
 }
 
 const renderMovie = movie => {
-    document.title = `SWAPI - ${movie?.name}`;  // Just to make the browser tab say their name
-    nameH1.textContent = movie?.name;
+    document.title = `SWAPI - ${movie?.title}`;  // Just to make the browser tab say their name
+    nameH1.textContent = movie?.title;
     producerSpan.textContent = movie?.producer;
     titleSpan.textContent = movie?.title;
     directorSpan.textContent = movie?.director;
